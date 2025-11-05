@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>梅凌豪 | 个人主页</title>
+  <meta name="description" content="梅凌豪的主页与简历"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="wrap">
+    <h1>梅凌豪</h1>
+    <p>同济大学 · 研二 | 研究方向：点云，深度学习 | <a href="mailto:you@example.com">you@example.com</a></p>
+    <nav>
+      <a href="#about">简介</a>
+      <a href="#pubs">论文</a>
+      <a href="#projects">项目</a>
+      <a href="#awards">荣誉</a>
+      <a href="#cv">简历</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section id="about">
+      <h2>简介</h2>
+      <p>在此用 3–5 句概括你的研究兴趣、当前课题与长期目标。</p>
+    </section>
+
+    <section id="pubs">
+      <h2>代表论文</h2>
+      <ol>
+        <li><b>梅凌豪</b>, 合作者. “论文题目”. <i>期刊</i>, 年份. <a href="#">PDF</a> · <a href="#">DOI</a></li>
+        <li>……</li>
+      </ol>
+    </section>
+
+    <section id="projects">
+      <h2>项目</h2>
+      <ul>
+        <li><b>项目A</b>：一句话亮点；链接到代码/页面。</li>
+        <li><b>项目B</b>：……</li>
+      </ul>
+    </section>
+
+    <section id="awards">
+      <h2>荣誉与服务</h2>
+      <ul>
+        <li>奖项A（年份）</li>
+        <li>志愿/审稿/竞赛指导等</li>
+      </ul>
+    </section>
+
+    <section id="cv">
+      <h2>简历</h2>
+      <p>下载 PDF 版：<a href="cv.pdf">cv.pdf</a></p>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>© 买回来 · 最后更新：<span id="y"></span></p>
+    <script>document.getElementById('y').textContent = new Date().toISOString().slice(0,10);</script>
+  </footer>
+</body>
+</html>
