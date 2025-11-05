@@ -1,0 +1,13 @@
+:root { --w: 900px; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 16px/1.65 system-ui, -apple-system, Segoe UI, Roboto, PingFang SC, Noto Sans CJK SC, sans-serif; color: #1a1a1a; }
+a { color: #0b5fff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: var(--w); margin: 0 auto; padding: 24px 16px; }
+header { border-bottom: 1px solid #eee; }
+header h1 { margin: 0 0 8px; font-size: 28px; }
+header p { margin: 0 0 12px; color: #555; }
+nav a { margin-right: 12px; font-weight: 600; }
+main h2 { margin-top: 28px; border-left: 4px solid #0b5fff; padding-left: 10px; }
+ol, ul { padding-left: 18px; }
+footer { border-top: 1px solid #eee; color: #666; font-size: 14px; }
